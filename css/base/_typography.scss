@@ -1,0 +1,35 @@
+
+.profile{
+    grid-area: profile;
+}
+
+.skills{
+    grid-area: skills;
+}
+.projects{
+    grid-area: projects;
+}
+
+.experiences{
+    grid-area: exp;
+}
+.hobbies{
+    grid-area: hobbies;
+}
+.blogs{
+    grid-area: blogs;
+}
+
+.container{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: auto auto auto auto auto auto;
+    grid-gap: 32px;
+    grid-template-areas:
+    "profile skills skills skills"
+    "profile projects projects projects"
+    "exp projects projects projects"
+    "hobbies blogs blogs blogs"
+
+    ;
+}

@@ -1,0 +1,99 @@
+.skills{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.skills__frontend, .skills__others {
+  max-width: 415.02px;
+  display: inline-block;
+  margin-bottom: $sections-margin;
+  h1 {
+    margin-bottom: 2.7rem;
+  }
+  
+}
+.skills__others{
+ 
+}
+
+.skills-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skills-list {
+  line-height: 19.7px;
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    font-size: $font-sm;
+    margin-bottom: 2.7rem;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  h2 {
+    font-size: $font-sm;
+    width: 120px;
+  }
+}
+
+.bar {
+  display: block;
+  width: 236.85px;
+  height: 9.6px;
+  background: $color-grey-light;
+  border-radius: 12px;
+  span{
+    height: 9.6px;
+    background: $color-blue;
+    float: left;
+    border-radius: 12px;
+  }
+}
+
+.html{
+    width: 80%;
+    animation: html 2s;
+}
+
+.css{
+    width: 80%;
+}
+
+.js{
+    width: 40%;
+}
+
+.bootstrap{
+    width: 70%;
+}
+
+.sass{
+    width: 50%;
+}
+
+.figma{
+    width:40%;
+}
+
+.python{
+    width: 80%;
+}
+
+.java{
+width: 50%;
+}
+
+.django{
+    width: 70%
+}
+
+.sql{
+    width: 80%;
+}

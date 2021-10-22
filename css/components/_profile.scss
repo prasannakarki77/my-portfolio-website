@@ -1,0 +1,35 @@
+.profile {
+  max-width: 413px;
+
+
+}
+
+.profile__image {
+  display: inline-block;
+  max-width: 366.99px;
+  height: 358.63px;
+  border-radius: 12px;
+  .profile-pic {
+    object-fit: cover;
+    width: 100%;
+    border-radius: 12px;
+    height: 100%;
+  }
+}
+
+.contact-detail{
+    font-size: $font-sm;
+    .email, .phone{
+        line-height: 2.4rem;
+    }
+    .font-icon{
+        margin-right: 1.8rem;
+    }
+}
+
+.profile-info-text{
+    font-size: $font-sm;
+}
+
+
+
