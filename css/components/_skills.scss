@@ -1,22 +1,19 @@
-.skills{
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
+.skills {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-
-.skills__frontend, .skills__others {
+.skills__frontend,
+.skills__others {
   max-width: 415.02px;
   display: inline-block;
   margin-bottom: $sections-margin;
   h1 {
     margin-bottom: 2.7rem;
   }
-  
 }
-.skills__others{
- 
-}
+
 
 .skills-details {
   display: flex;
@@ -49,7 +46,7 @@
   height: 9.6px;
   background: $color-grey-light;
   border-radius: 12px;
-  span{
+  span {
     height: 9.6px;
     background: $color-blue;
     float: left;
@@ -57,43 +54,52 @@
   }
 }
 
-.html{
-    width: 80%;
-    animation: html 2s;
+.html {
+  width: 80%;
+  animation: html 2s;
 }
 
-.css{
-    width: 80%;
+.css {
+  width: 80%;
+  animation: css 2s;
 }
 
-.js{
-    width: 40%;
+.js {
+  width: 40%;
+  animation: js 2s;
 }
 
-.bootstrap{
-    width: 70%;
+.bootstrap {
+  width: 70%;
+  animation: bootstrap 2s;
 }
 
-.sass{
-    width: 50%;
+.sass {
+  width: 50%;
+  animation: sass 2s;
 }
 
-.figma{
-    width:40%;
+.figma {
+  width: 40%;
+  animation: figma 2s;
 }
 
-.python{
-    width: 80%;
+.python {
+  width: 80%;
+  animation: python 2s;
 }
 
-.java{
-width: 50%;
+.java {
+  width: 50%;
+  animation: java 2s;
 }
 
-.django{
-    width: 70%
+.django {
+  width: 70%;
+  animation: django 2s;
 }
 
-.sql{
-    width: 80%;
+.sql {
+  width: 80%;
+  animation: sql 2s;
 }

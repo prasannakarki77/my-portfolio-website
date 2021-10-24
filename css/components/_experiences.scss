@@ -1,4 +1,37 @@
 .experiences {
   max-width: 413px;
-  height: 692.17px;
+}
+.exp{
+    position: relative;
+}
+.exp-details {
+  line-height: 20px;
+  display: inline-block;
+  margin-left: 100px;
+}
+.exp__duration {
+  font-size: 14px;
+  line-height: 2.9rem;
+}
+.exp__job-title{
+    line-height: 2.9rem;
+}
+
+.exp__job-title,
+.exp__desc {
+  font-size: $default-font-size;
+}
+
+.company-logo {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+  width: 84px;
+  height: 84px;
+  img {
+   
+    
+    width: 100%;
+  }
+
 }

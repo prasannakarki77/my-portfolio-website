@@ -22,14 +22,14 @@
 
 .container{
     display: grid;
-    height: 100vh;
-    grid-template-rows: auto auto auto auto auto auto;
+    margin: 0 auto;
+    grid-template-rows: auto auto auto auto auto ;
     grid-gap: 32px;
     grid-template-areas:
     "profile skills skills skills"
     "profile projects projects projects"
     "exp projects projects projects"
+    "hobbies projects projects projects"
     "hobbies blogs blogs blogs"
-
     ;
 }
