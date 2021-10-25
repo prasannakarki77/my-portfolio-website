@@ -5,12 +5,12 @@
     position: relative;
 }
 .exp-details {
-  line-height: 20px;
+  line-height: 2rem;
   display: inline-block;
   margin-left: 100px;
 }
 .exp__duration {
-  font-size: 14px;
+  font-size: 1.4rem;
   line-height: 2.9rem;
 }
 .exp__job-title{
@@ -25,13 +25,37 @@
 .company-logo {
     display: inline-block;
     position: absolute;
-    top: 0;
+    top: 7px;
   width: 84px;
   height: 84px;
   img {
-   
-    
     width: 100%;
   }
 
+}
+@media (max-width:1160px){
+  .company-logo {
+    width: 45px;
+    height: 45px;
+  }
+  .exp-details {
+    margin-left: 50px;
+  }
+}
+
+
+@media (max-width:920px){
+  .experiences {
+    max-width: 290px;
+  
+  
+  }
+  .company-logo {
+  width: 30px;
+  height: 30px;
+}
+  .exp-details {
+    margin-left: 40px;
+  }
+  
 }

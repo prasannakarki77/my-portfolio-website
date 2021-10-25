@@ -13,6 +13,9 @@
     margin-bottom: 2.7rem;
   }
 }
+.skills__frontend{
+  margin-right: 1.8rem;
+}
 
 
 .skills-details {
@@ -102,4 +105,22 @@
 .sql {
   width: 80%;
   animation: sql 2s;
+}
+
+@media (max-width:1160px){
+  .skills-list {
+    h2 {
+      width: 90px;
+    }
+  }
+}
+
+
+
+@media (max-width:920px){
+  .skills-list {
+    h2 {
+      width: 65px;
+    }
+  }
 }

@@ -19,7 +19,24 @@ body {
   padding: 6.5rem;
   font-family: 'Montserrat', sans-serif;
   color: $color-black;
+  min-width: 700px;
 }
 
+@media (max-width:1160px){
+  html {
+    //This defines what 1 rem is
+    font-size: 8px;
+  }
+}
 
+@media (max-width:920px){
+  html {
+    //This defines what 1 rem is
+    font-size: 6px;
+  }
+  body {
+    padding: 4.5rem;
+    
+  }
+}
 

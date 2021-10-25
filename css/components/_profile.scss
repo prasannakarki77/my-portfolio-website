@@ -7,7 +7,7 @@
 .profile__image {
   display: inline-block;
   max-width: 366.99px;
-  height: 358.63px;
+
   border-radius: 12px;
   .profile-pic {
     object-fit: cover;
@@ -33,3 +33,11 @@
 
 
 
+@media (max-width:920px){
+  .profile {
+    max-width: 290px;
+  
+  
+  }
+  
+}
