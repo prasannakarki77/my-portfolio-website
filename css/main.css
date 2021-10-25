@@ -29,9 +29,6 @@ body {
 }
 
 @media (max-width: 920px) {
-  html {
-    font-size: 6px;
-  }
   body {
     padding: 4.5rem;
   }
