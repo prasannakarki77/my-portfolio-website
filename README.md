@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/solutions/UxkxjVAUuJmK28mEJUup" >
+    <a href="https://devchallenges.io/solutions/aMYr5KT0kUQ27JyqRM9D" >
       Solution
     </a>
     <span> | </span>
@@ -43,7 +43,7 @@
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
 - HTML
-- CSS
+- SASS
 
 ## Features
 
