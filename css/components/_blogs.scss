@@ -2,7 +2,6 @@
   overflow: hidden;
   &__head {
     font-size: $font-sm;
-
   }
 }
 
@@ -15,7 +14,6 @@
   display: flex;
   justify-content: space-between;
 
-
   &__image {
     max-width: 444px;
     max-height: 369px;
@@ -26,7 +24,6 @@
       object-fit: cover;
       transform: translateX(3.2rem);
       border-radius: 12px;
-    
     }
   }
 }
@@ -48,4 +45,17 @@
   }
 }
 
-
+@media (max-width: 1000px) {
+  .blog {
+    flex-direction: column;
+    align-items: center;
+    &__image {
+      img {
+        transform: translateX(0);
+      }
+    }
+  }
+  .blog-details {
+    max-width: 100%;
+  }
+}

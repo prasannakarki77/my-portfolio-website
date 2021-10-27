@@ -22,7 +22,7 @@
 }
 
 .project__desc {
- 
+  max-width: 415px;
   margin-left: 3.2rem;
   .tags, p{
     font-size: $default-font-size;
@@ -38,15 +38,27 @@
         border-radius: 12px;
         border: 1px solid $color-blue;
         text-decoration: none;
+        transition: all .3s;
     }
     .btn-blue{
         background: $color-blue;
         color: $color-white;
         margin-right: 11px;
+        &:hover{
+          background-color: rgb(57, 75, 87);
+         
+        }
     }
     .btn-white{
         color: $color-blue;
+        font-weight: 500;
+        &:hover{
+          color: rgb(50, 80, 100);
+          border: 1px solid rgb(50, 80, 100);
+        }
+        
     }
+    
    
 }
 

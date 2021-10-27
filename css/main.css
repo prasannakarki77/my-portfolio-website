@@ -254,6 +254,7 @@ body {
 
 .profile {
   max-width: 413px;
+  min-width: 290px;
 }
 
 .profile__image {
@@ -274,7 +275,8 @@ body {
   font-size: 1.8rem;
 }
 
-.contact-detail .email, .contact-detail .phone {
+.contact-detail .email,
+.contact-detail .phone {
   line-height: 2.9rem;
 }
 
@@ -284,6 +286,15 @@ body {
 
 .profile-info-text {
   font-size: 1.8rem;
+}
+
+@media (max-width: 1390px) {
+  .contact-detail {
+    font-size: 14px;
+  }
+  .contact-detail .font-icon {
+    margin-right: 0.5rem;
+  }
 }
 
 @media (max-width: 920px) {
@@ -525,6 +536,7 @@ body {
 }
 
 .project__desc {
+  max-width: 415px;
   margin-left: 3.2rem;
 }
 
@@ -543,6 +555,8 @@ body {
   border-radius: 12px;
   border: 1px solid #2f80ed;
   text-decoration: none;
+  -webkit-transition: all .3s;
+  transition: all .3s;
 }
 
 .buttons .btn-blue {
@@ -551,8 +565,18 @@ body {
   margin-right: 11px;
 }
 
+.buttons .btn-blue:hover {
+  background-color: #394b57;
+}
+
 .buttons .btn-white {
   color: #2f80ed;
+  font-weight: 500;
+}
+
+.buttons .btn-white:hover {
+  color: #325064;
+  border: 1px solid #325064;
 }
 
 @media (max-width: 1160px) {
@@ -683,11 +707,46 @@ body {
   text-decoration: none;
 }
 
+@media (max-width: 1000px) {
+  .blog {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .blog__image img {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  .blog-details {
+    max-width: 100%;
+  }
+}
+
 .section {
   background-color: #ffffff;
   border-radius: 12px;
   padding: 2.5rem;
   -webkit-box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
           box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+footer {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #b9bdcf;
+  margin-bottom: 10px;
+}
+
+footer a {
+  text-decoration: underline;
+  color: #828282;
 }
 /*# sourceMappingURL=main.css.map */

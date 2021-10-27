@@ -1,7 +1,6 @@
 .profile {
   max-width: 413px;
-
-
+  min-width: 290px;
 }
 
 .profile__image {
@@ -17,27 +16,32 @@
   }
 }
 
-.contact-detail{
-    font-size: $font-sm;
-    .email, .phone{
-        line-height: 2.9rem;
-    }
-    .font-icon{
-        margin-right: 1.8rem;
-    }
+.contact-detail {
+  font-size: $font-sm;
+  .email,
+  .phone {
+    line-height: 2.9rem;
+  }
+  .font-icon {
+    margin-right: 1.8rem;
+  }
 }
 
-.profile-info-text{
-    font-size: $font-sm;
+.profile-info-text {
+  font-size: $font-sm;
 }
 
+@media (max-width: 1390px) {
+  .contact-detail {
+    font-size: 14px;
+    .font-icon {
+      margin-right: 0.5rem;
+    }
+  }
+}
 
-
-@media (max-width:920px){
+@media (max-width: 920px) {
   .profile {
     max-width: 290px;
-  
-  
   }
-  
 }
